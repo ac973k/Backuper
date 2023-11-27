@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>BackuperUI</class>
+ <widget class="QMainWindow" name="BackuperUI">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>316</width>
+    <height>620</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>BackuperUI</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: #ffffff</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout_3">
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <widget class="QComboBox" name="boxList">
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(239, 239, 239);
+color: rgb(0, 0, 0);</string>
+          </property>
+          <item>
+           <property name="text">
+            <string>bk0</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>bk1</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>bk2</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>boot_a</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>boot_b</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>boot_para</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>countrycode</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>cust</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>devinfo</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>dtbo_a</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>dtbo_b</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>efuse</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>expdb</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>ffu</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>flashinfo</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>frp</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>gsort</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>gz_a</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>gz_b</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>lk_a</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>lk_b</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>logo_a</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>logo_b</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>md_udc</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>md1img_a</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>md1img_b</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>metadata</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>misc</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>mrdump</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>nvcfg</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>nvdata</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>nvram</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>otp</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>para</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>persist</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>persistbak</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>preloader_a</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>preloader_b</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>proinfo</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>protect1</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>protect2</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>rescue</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>scp_a</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>scp_b</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>sec1</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>seccfg</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>spmfw_a</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>spmfw_b</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>sspm_a</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>sspm_b</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>super</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>tee_a</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>tee_b</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>vbmeta_a</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>vbmeta_b</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>vbmeta_system_a</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>vbmeta_system_b</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>vbmeta_vendor_a</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>vbmeta_vendor_b</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="btnBackup">
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(239, 239, 239);
+color: rgb(0, 0, 0);</string>
+          </property>
+          <property name="text">
+           <string>Backup</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QTextEdit" name="textEdit">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(0, 0, 0);</string>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <item>
+         <widget class="QPushButton" name="btnSettings">
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(239, 239, 239);
+color: rgb(0, 0, 0);</string>
+          </property>
+          <property name="text">
+           <string>Settings</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="btnAbout">
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(239, 239, 239);
+color: rgb(0, 0, 0);</string>
+          </property>
+          <property name="text">
+           <string>About</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
